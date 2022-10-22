@@ -20,3 +20,13 @@ EX:
 你的BMI為31.14186851211073
 體重過重
 '''
+W = float(input("請輸入體重(公斤)"))
+H = float(input("請輸入身高(公分)"))
+bmi = W / (H / 100)**2
+if bmi >= 20.7:
+    print('過重')
+elif bmi >= 14.8:
+    print('正常')
+else:
+    print('過輕')
+print("你的BMI指數是" + str(bmi))

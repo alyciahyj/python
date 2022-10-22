@@ -35,10 +35,3 @@ False or  False
 #     print("D")
 # elif password < 60:
 #     print("E")
-'''
-password = int(input("請輸入數字"))
-if password % 2 == 0:
-    print("是偶數")
-else:
-    print("是奇數")
-'''
