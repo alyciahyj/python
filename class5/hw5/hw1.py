@@ -11,6 +11,7 @@ turtle.stamp()
 for i in range(0, 360, 45):
     turtle.left(i)
     turtle.forward(80)
+    turtle.color(light blue)
     turtle.stamp()
     turtle.home()
 turtle.done()
