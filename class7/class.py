@@ -45,5 +45,5 @@ while True:
     elif a < x:
         print('在大一點')
     else:
-        print('~恭喜猜中了!!!~')
+        print('~恭喜猜中了!~')
         break
